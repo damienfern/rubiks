@@ -61,15 +61,15 @@ struct Cube {
 
 impl Cube {
     fn new (front: Face, left: Face, right: Face, back: Face, down: Face, up: Face) -> Cube {
-            Cube {
-                front,
-                left,
-                right,
-                back,
-                down,
-                up
-            }
+        Cube {
+            front,
+            left,
+            right,
+            back,
+            down,
+            up
         }
+    }
 }
 
 fn main() {
